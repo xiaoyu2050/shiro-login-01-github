@@ -17,6 +17,7 @@ public class TestForm {
         System.out.println("测试git提交");
         System.out.println("hello fix commit1");
         System.out.println("hello fix commit2");
+        System.out.println("hello fix commit2-hot-fix");
         System.out.println("user = " + user);
         System.out.println("avatar = " + avatar.getName());
         return "收到了";
