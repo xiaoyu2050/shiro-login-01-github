@@ -15,13 +15,14 @@ public class TestForm {
     @PostMapping("/test")
     public String test(User user, MultipartFile avatar) {
         System.out.println("测试git提交");
+        System.out.println("hello fix commit1");
         System.out.println("user = " + user);
         System.out.println("avatar = " + avatar.getName());
         return "收到了";
     }
 
     @Data
-    class  User{
+    static class  User{
         String username;
         String password;
         String sex;
