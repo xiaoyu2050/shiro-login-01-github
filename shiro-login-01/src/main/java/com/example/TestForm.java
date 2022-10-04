@@ -19,6 +19,7 @@ public class TestForm {
         System.out.println("hello fix commit2");
         System.out.println("hello fix commit2-hot-fix");
         System.out.println("hello fix commit2-gitee");
+        System.out.println("hello fix commit2-gitee-远程编辑");
         System.out.println("user = " + user);
         System.out.println("avatar = " + avatar.getName());
         return "收到了";
